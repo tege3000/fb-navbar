@@ -1,0 +1,37 @@
+.nav-bar {
+  list-style: none;
+  text-align: horizontal;
+  display: flex;
+  height: 30px;
+  margin: 0px 20px;
+}
+
+.nav-left {
+  flex: 0.1;
+}
+
+.nav-mid {
+  flex: 0.5;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.nav-right {
+  flex: 0.4;
+}
+
+.search-input {
+  width: 85%;
+  height: 80%;
+  border-radius: 20px 0px 0px 20px;
+  border-style: grey;
+}
+
+.profile-pic {
+  float: right;
+}
+
+.fa {
+  margin-right: 10px;
+  margin-left: 15px;
+}
