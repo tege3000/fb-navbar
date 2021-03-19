@@ -2,7 +2,7 @@
   list-style: none;
   text-align: horizontal;
   display: flex;
-  height: 30px;
+  height: 50px;
   margin: 0px 20px;
 }
 
@@ -13,6 +13,7 @@
 .nav-mid {
   flex: 0.5;
   border: 1px solid grey;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -20,18 +21,41 @@
   flex: 0.4;
 }
 
+.nav-right > div {
+  float: right;
+  display: flex;
+}
+
+.icon {
+  flex: 0.5;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
 .search-input {
   width: 85%;
-  height: 80%;
+  height: 95%;
   border-radius: 20px 0px 0px 20px;
-  border-style: grey;
+  border-right-style:  grey;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
 }
 
 .profile-pic {
-  float: right;
+  margin-top: 10px;
+  flex: 0.5;
+  width: 70px;
+  height: 40px;
+  border-radius: 50%;
 }
 
-.fa {
+.search-icon {
   margin-right: 10px;
-  margin-left: 15px;
+  margin-left: 25px;
+}
+
+.logo {
+  height: 100%;
+  width: 100px;
 }
