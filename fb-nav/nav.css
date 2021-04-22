@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+
+nav {
+    display: flex;
+    height: 40px;
+    margin: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-left {
+    flex: 0.3;
+    display: flex;
+}
+
+.nav-mid {
+    flex: 0.5;
+    display: flex;
+    font-size: 20px;
+}
+
+
+.nav-mid > div {
+    flex: 1;
+}
+
+.nav-right {
+    flex: 0.2;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-r-icon {
+    margin: 0px 5px;
+    flex: 1;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(219, 215, 215);
+    border: 1px solid rgb(219, 215, 215);
+}
+
+.icon-center {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.nav-search {
+    flex: 1;
+    margin: 0px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(219, 215, 215);
+    height: 100%;
+}
+
+#search {
+    background-color: rgb(219, 215, 215);
+    vertical-align: top;
+    height: 100%;
+    width: 80%;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+}
+
+.search-icon-nav {
+    padding: 10px 0px 10px 10px;
+}
+
+.fb-icon-nav {
+    font-size: 30px;
+}
+
+.nav-r-icon-user {
+    margin-right: 5px;
+}
+
+input {
+    outline: none;
+}
