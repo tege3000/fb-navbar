@@ -88,7 +88,7 @@ input {
 }
 
 .dropdown-items {
-    display: none; /* later when start learning javascript show this and implement onClick function for dropdown*/
+    display: none; /* later when start learning javascript show this and implement onClick function for dropdown */
     float: right;
     margin-right: 30px;
 }
